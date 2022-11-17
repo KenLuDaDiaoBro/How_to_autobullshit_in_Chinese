@@ -8,11 +8,11 @@ word = ''
 num = 0
 content = ''
 
-word = input('請輸入關鍵字:')
-num = input('請輸入字數(1000以內):')
+word = input('Please enter key words:')
+num = input('Please enter the number of words (within 1000):')
 while int(num) > 1000 :
-    num = input('錯誤 請重新輸入字數:')
-print('產生中...')
+    num = input('Error Please re-enter the number of words:')
+print('Generating...')
 
 s = Service("D:/Software/webdrivers/chromedriver.exe")
 opts = Options()
